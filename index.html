@@ -13,93 +13,98 @@
 </head>
 
 <body>
+  <div class="container">
+    <div class="info">
+      <img src="аватар.jpg" alt="Евгений Наумов" class="ava" />
 
-  <div class="ava">
-    <img src="аватар.jpg" alt="Евгений Наумов" width="300"/>
+      <div class="info-text">
+        <h1>Евгений Наумов</h1>
+        <p>Начинающий <strong> Frontend-разработчик</strong></p>
+        <p> Рассматриваю смену профессии в сторону
+          <strong> Frontend-разработки.</strong> Закончиваю онлайн-курсы по
+          <strong> <em>HTML/CSS/JS</em></strong> и ищу возможность применять знания
+          на практике
+          Готов пройти тестовое задание, чтобы пройти проверку уровня квалификации.
+        </p>
+
+        <h2>Список социальных сетей</h2>
+
+        <a class="btn" href="https://vk.com/id202612581" target="_blank">ВКонтакте</a>
+
+        <a class="btn" href="https://t.me/Evgeniy0507" target="_blank">Telegram</a>
+      </div>
+    </div>
+
+    <div class="hobby">
+      <h2>Мои хобби</h2>
+      <ul>
+        <li>Путешествие</li>
+        <li>Кемпинг</li>
+        <li>Пеший туризм</li>
+        <li>Ремонт автомобилей</li>
+        <li>Изучение нового</li>
+      </ul>
+    </div>
+
+    <div class="table">
+      <table>
+        <caption>Опыт работы</caption>
+        <thead>
+          <tr>
+            <th>Организация</th>
+            <th>Должность</th>
+            <th>Период</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ОВД по Ульяновскому району
+              <br> Ульяновской области
+            </td>
+            <td>помощник оперативного дежурного</td>
+            <td>2009-2011</td>
+          </tr>
+          <tr>
+            <td>ООО "Техцентр"</td>
+            <td>помощник старшего смены</td>
+            <td>2011-2013</td>
+          </tr>
+          <tr>
+            <td>МногоМебели</td>
+            <td>консультант</td>
+            <td>2013-2013</td>
+          </tr>
+          <tr>
+            <td>ООО "УПРЗ"</td>
+            <td>наладчик ТПА</td>
+            <td>2014-по наст.время</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <form action="/" class="link">
+      <h2>Связаться со мной</h2>
+
+      <div class="row">
+        <div class="form">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя" />
+        </div>
+        <div class="form">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email" />
+        </div>
+      </div>
+
+      <div class="form">
+        <label for="message">Сообщение</label>
+
+        <textarea id="message" cols="30" rows="5" placeholder="Введите сообшение..."></textarea>
+      </div>
+      <input type="submit" class="btn" value="Отправить!">
+
   </div>
-  
-    <h1>Евгений Наумов</h1>
-  <div class="main">
-    <p>Начинающий <strong> Frontend-разработчик</strong></p>
-    <p> Рассматриваю смену профессии в сторону
-      <strong> Frontend-разработки.</strong> Закончиваю онлайн-курсы по
-      <strong> <em>HTML/CSS/JS</em></strong> и ищу возможность применять знания
-      на практике 
-      Готов пройти тестовое задание, чтобы пройти проверку уровня квалификации.
-    </p>
-  </div>
-
- <div>
-  <h2>Контакты</h2>
-
-  <a class="button" href="https://vk.com/id202612581" target="_blank">ВКонтакте</a>
-  
-  <a class="button" href="https://t.me/Evgeniy0507" target="_blank">Telegram</a>
-</div>
-
-<div>
-  <h2>Мои хобби</h2>
-  <ul class="hobby">
-    <li>Путешествие</li>
-    <li>Кемпинг</li>
-    <li>Пеший туризм</li>
-    <li>Ремонт автомобилей</li>
-    <li>Изучение нового</li>
-  </ul>
-</div>
-
-  <table>
-    <caption>Опыт работы</caption>
-    <thead>
-      <tr>
-        <th>Организация</th>
-        <th>Должность</th>
-        <th>Период</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>ОВД по Ульяновскому району
-          <br> Ульяновской области
-        </td>
-        <td>помощник оперативного дежурного</td>
-        <td>2009-2011</td>
-      </tr>
-      <tr>
-        <td>ООО "Техцентр"</td>
-        <td>помощник старшего смены</td>
-        <td>2011-2013</td>
-      </tr>
-      <tr>
-        <td>МногоМебели</td>
-        <td>консультант</td>
-        <td>2013-2013</td>
-      </tr>
-      <tr>
-        <td>ООО "УПРЗ"</td>
-        <td>наладчик ТПА</td>
-        <td>2014-по наст.время</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h2>Связаться со мной</h2>
-  <form action="mailto:naum180@mail.ru" enctype="text/plain">
-    <div>
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="Введите имя" />
-    </div>
-    <div>
-      <label for="email">Ваш email:</label>
-      <input type="email" id="email" placeholder="Введите email" />
-    </div>
-    <div>
-      <label for="message">Сообщение</label>
-      <br />
-      <textarea id="message" cols="30" rows="5" placeholder="Введите сообшение..."></textarea>
-    </div>
-    <input type="submit" class="btn" value="Отправить!">
-
 </body>
 
 </html>
